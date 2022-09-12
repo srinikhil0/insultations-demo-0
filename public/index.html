@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insultations - Best Way To Greet One</title>
+    <link rel="stylesheet" href="css/home.css">
+    <script src="https://kit.fontawesome.com/04cbb868ac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar"></nav>
+
+    <!-- hero - section -->
+    <header class="hero-section">
+    </header>
+
+    <section id="men-tshirt-products"></section>
+
+    <!-- collections -->
+    <section class="collection-container">
+        <a href="#" class="collection">
+            <img src="img/tshirts/insultations-sample.png" alt="women-collection">
+            <p class="collection-title">women <br> apparels</p>
+        </a>
+        <a href="#" class="collection">
+            <img src="img/tshirts/insultations-sample.png" alt="men-collection">
+            <p class="collection-title">men <br> apparels</p>
+        </a>
+        <a href="#" class="collection">
+            <img src="img/tshirts/insultations-sample2.png" alt="accessories-collection">
+            <!-- <p class="collection-title">accessories</p> -->
+        </a>
+    </section>
+
+    <section id="men-tshirt-products-2"></section>
+
+    <!-- footer -->
+    <footer></footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/home.js"></script>
+
+    <script>
+        getProducts('Men').then(data => createProductSlider(data, '#men-tshirt-products', 'Men T-shirt'))
+        getProducts('Men').then(data => createProductSlider(data, '#men-tshirt-products-2', 'Men T-shirt'))
+    </script>
+
+</body>
+</html>

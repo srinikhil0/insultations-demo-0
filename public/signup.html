@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insultations - Create Account</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+
+    <img src="img/loader.gif" class="loader" alt="">
+
+    <div class="alert-box ">
+        <img src="img/warning.png" alt="" class="alert-img">
+        <p class="alert-msg">Error Message</p>
+    </div>
+
+    <div class="container">
+        <img src="img/insultations-logo-sample-0.png" alt="" class="logo">
+
+        <div>
+            <input type="text" autocomplete="off" placeholder="name" id="name">
+            <input type="email" autocomplete="off" placeholder="email" id="email">
+            <input type="password" autocomplete="off" placeholder="password" id="password">
+            <input type="text" autocomplete="off" placeholder="number" id="number">
+            <input type="checkbox" id="terms-and-cond" checked class="checkbox">
+            <label for="terms-and-cond">agree to our <a href="#">terms & conditions</a></label>
+            <br>
+            <input type="checkbox" id="notification" class="checkbox">
+            <label for="notification">receive upcoming offers and events emails</a></label>
+            <button class="submit-btn">create account</button>
+        </div>
+        <a href="/login" class="link">already have an account? Login here</a>
+    </div>
+
+    <script src="js/token.js"></script>    
+    <script src="js/form.js"></script>
+</body>
+</html>
